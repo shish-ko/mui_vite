@@ -1,9 +1,8 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
-import * as pkg from '@mui/x-date-pickers/AdapterDayjs';
-import AccessAlarm from '@mui/icons-material/AccessAlarm';
-const { AdapterDayjs } = pkg;
+import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
+import { AccessAlarmOutlined} from '@mui/icons-material';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,7 +11,7 @@ function App() {
   return (
     <>
       <div>
-        <AccessAlarm />
+        <AccessAlarmOutlined />
         
       </div>
     </>
